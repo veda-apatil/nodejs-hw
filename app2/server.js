@@ -30,7 +30,7 @@ const server = http.createServer(async (req, res) => {
 
     // home view
     if (req.method === 'GET' && req.url === '/') { 
-        res.writeHead(20, { 'Content-Type': 'text/html' }); 
+        res.writeHead(200, { 'Content-Type': 'text/html' }); 
         res.end(`
             <!DOCTYPE html> 
             <html> 
