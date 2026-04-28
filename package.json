@@ -1,4 +1,10 @@
 {
+  "name": "node.js-assign", 
+  "version": "1.0.0", 
+  "main": "index.js", 
+  "scripts": { 
+      "start": "node app2/server.js"
+  },
   "dependencies": {
     "mongodb": "^7.2.0"
   }
