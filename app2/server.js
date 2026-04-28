@@ -63,7 +63,7 @@ const server = http.createServer(async (req, res) => {
             result = await collection.findOne({ zips: query }); 
         } else { 
             result = await collection.findOne({
-                place: { $regex: new RegExp(`^${query}$`, i) }
+                place: { $regex: new RegExp(`^${query}$`, 'i') }
             }); 
         }
 
